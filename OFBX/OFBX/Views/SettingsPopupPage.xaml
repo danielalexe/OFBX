@@ -28,8 +28,8 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <StackLayout Spacing="10" Padding="15">
-                <Editor x:Name="EditorServerIP"  Placeholder="Server IP" ></Editor>
-                <Editor x:Name="EditorServiceName" Placeholder="Service Name" ></Editor>
+                <Entry x:Name="EntryServerIP"  Placeholder="Server IP" ></Entry>
+                <Entry x:Name="EntryServiceName" Placeholder="Service Name" ></Entry>
             </StackLayout>
         </Grid>
         <Grid Grid.Row="1">

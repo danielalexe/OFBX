@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "OFBX.Android.dll" comes first in this list. */
 		"OFBX.Android.dll",
+		"Flurl.dll",
+		"Flurl.Http.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"OFBX.dll",

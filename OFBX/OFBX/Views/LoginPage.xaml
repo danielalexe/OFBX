@@ -33,8 +33,8 @@
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
                     <StackLayout Spacing="10" Padding="15">
-                        <Editor  Placeholder="Username" ></Editor>
-                        <Editor Placeholder="Password" ></Editor>
+                        <Entry x:Name="EntryUsername"  Placeholder="Username" ></Entry>
+                        <Entry x:Name="EntryPassword" Placeholder="Password" IsPassword="True" ></Entry>
                     </StackLayout>
                 </Grid>
                 <Grid Grid.Row="1">

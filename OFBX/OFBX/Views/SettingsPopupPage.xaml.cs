@@ -20,22 +20,22 @@ namespace OFBX.Views
             if (String.IsNullOrEmpty(ServerIPValue))
             {
                 Preferences.Set("ServerIP", "192.168.1.105");
-                EditorServerIP.Text = "192.168.1.105";
+                EntryServerIP.Text = "192.168.1.105";
             }
             else
             {
-                EditorServerIP.Text = ServerIPValue;
+                EntryServerIP.Text = ServerIPValue;
             }
 
             var ServiceNameValue = Preferences.Get("ServiceName", "");
             if (String.IsNullOrEmpty(ServerIPValue))
             {
                 Preferences.Set("ServiceName", "APILightWeb");
-                EditorServiceName.Text = "APILightWeb";
+                EntryServiceName.Text = "APILightWeb";
             }
             else
             {
-                EditorServiceName.Text = ServiceNameValue;
+                EntryServiceName.Text = ServiceNameValue;
             }
         }
         protected override void OnAppearing()
@@ -112,13 +112,13 @@ namespace OFBX.Views
 
         private async void ButtonSave_Clicked(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(EditorServerIP.Text))
+            if (!String.IsNullOrEmpty(EntryServerIP.Text))
             {
-                Preferences.Set("ServerIP", EditorServerIP.Text);
+                Preferences.Set("ServerIP", EntryServerIP.Text);
             }
-            if (!String.IsNullOrEmpty(EditorServiceName.Text))
+            if (!String.IsNullOrEmpty(EntryServiceName.Text))
             {
-                Preferences.Set("ServiceName", EditorServiceName.Text);
+                Preferences.Set("ServiceName", EntryServiceName.Text);
             }
             await PopupNavigation.Instance.RemovePageAsync(this);
         }

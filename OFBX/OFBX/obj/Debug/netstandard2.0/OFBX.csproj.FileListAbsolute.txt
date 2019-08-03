@@ -34,4 +34,10 @@ C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\OFBX
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\OFBX.dll
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\OFBX.pdb
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\SettingsPopupPage.xaml.g.cs
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\MainMenuPage.xaml.g.cs
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\LoadingPopupPage.xaml.g.cs
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\OFBX.csproj.CopyComplete
