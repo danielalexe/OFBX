@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj": {}
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj": {
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj",
         "projectName": "OFBX.iOS",
-        "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj",
+        "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.iOS\\OFBX.iOS.csproj",
         "packagesPath": "C:\\Users\\AlDanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.iOS\\obj\\",
+        "outputPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
-                "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj"
+              "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
+                "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+        "projectUniqueName": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
         "projectName": "OFBX",
-        "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+        "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
         "packagesPath": "C:\\Users\\AlDanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\obj\\",
+        "outputPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -113,6 +113,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Xam.Plugin.Iconize.Material": {
+              "target": "Package",
+              "version": "[3.5.0.129, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

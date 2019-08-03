@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj": {}
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj": {
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj",
+        "projectUniqueName": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj",
         "projectName": "OFBX.Android",
-        "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj",
+        "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.Android\\OFBX.Android.csproj",
         "packagesPath": "C:\\Users\\AlDanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX.Android\\obj\\",
+        "outputPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
-                "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj"
+              "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
+                "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
+    "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+        "projectUniqueName": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
         "projectName": "OFBX",
-        "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+        "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
         "packagesPath": "C:\\Users\\AlDanielM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\obj\\",
+        "outputPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -130,6 +130,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Xam.Plugin.Iconize.Material": {
+              "target": "Package",
+              "version": "[3.5.0.129, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

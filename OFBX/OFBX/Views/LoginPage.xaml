@@ -3,13 +3,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
              mc:Ignorable="d"
-             x:Class="OFBX.Views.LoginPage">
+             x:Class="OFBX.Views.LoginPage"
+             Visual="Material">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid x:Name="MainGrid">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="60"/>
+				<RowDefinition Height="1*"/>
+				<RowDefinition Height="60"/>
+			</Grid.RowDefinitions>
+            <Grid x:Name="TopBar" Grid.Row="0" BackgroundColor="{StaticResource NavigationPrimary}">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition Width="60"/>
+				</Grid.ColumnDefinitions>
+                <Image Grid.Column="0" x:Name="BusinessLogo" Source="Logo.png" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+                    
+                </Image>
+                <iconize:IconButton Clicked="ButtonSettings_Clicked" Text="md-settings" FontSize="30"  TextColor="{StaticResource TextPrimary}" BackgroundColor="{StaticResource NavigationPrimary}" Grid.Column="1" x:Name="ButtonSettings" >
+                    
+                </iconize:IconButton>
+            </Grid>
+            <Grid Grid.Row="1" VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <StackLayout Spacing="10" Padding="15">
+                        <Editor  Placeholder="Username" ></Editor>
+                        <Editor Placeholder="Password" ></Editor>
+                    </StackLayout>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" CornerRadius="18" x:Name="ButtonLogin" Clicked="ButtonLogin_Clicked" Text="Login" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="25"></Button>
+                    <Button Grid.Column="1" CornerRadius="18" x:Name="ButtonCancel" Clicked="ButtonCancel_Clicked" Text="Cancel" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="25"></Button>
+                </Grid>
+                
+                
+            </Grid>
+            <Grid Grid.Row="2" HorizontalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Label x:Name="LabelVersion" Text="Version:" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        
+                    </Label>
+                    <Label x:Name="LabelHardwareID" Text="Hardware ID:" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        
+                    </Label>
+                </StackLayout>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

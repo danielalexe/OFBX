@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "0ac56b114562eb65173554603eaa14d3055356ba"
+    "signature": "aa1957a323eb10231b1f48495e30b674fbc477cf"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.2",
+          "Rg.Plugins.Popup": "1.1.5.188",
+          "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606",
           "Xamarin.Forms.Visual.Material": "4.1.0.618606"
@@ -33,11 +35,45 @@
           }
         }
       },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.618606"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "1.1.5.188",
+            "fileVersion": "1.1.5.188"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "runtime": {
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {
             "assemblyVersion": "4.1.4.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugin.Iconize/3.5.0.129": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.618606"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Iconize.dll": {
+            "assemblyVersion": "3.5.0.129",
+            "fileVersion": "3.5.0.129"
+          }
+        }
+      },
+      "Xam.Plugin.Iconize.Material/3.5.0.129": {
+        "dependencies": {
+          "Xam.Plugin.Iconize": "3.5.0.129",
+          "Xamarin.Forms": "4.1.0.618606"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Iconize.Material.dll": {
+            "assemblyVersion": "3.5.0.129",
+            "fileVersion": "3.5.0.129"
           }
         }
       },
@@ -102,12 +138,33 @@
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PE7uHJ/LuI5pSO1HpgjJ+v2KhNfftzqt/L1AoGH/5mX0fP7pcW6lG4FbUHuCFKolrzJfLLotuuET+hfN50Whpg==",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "hashPath": "rg.plugins.popup.1.1.5.188.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugin.Iconize/3.5.0.129": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XLWwU+ZRRs1tM8quKDD3ZgdYgAftxyk9LhEQ8vdji8C9HsqVF+1El9Fdw9WbU/VBxGVoM5GWQ0tDb2uuT1QU7w==",
+      "path": "xam.plugin.iconize/3.5.0.129",
+      "hashPath": "xam.plugin.iconize.3.5.0.129.nupkg.sha512"
+    },
+    "Xam.Plugin.Iconize.Material/3.5.0.129": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lr/oswR7bXYYFDF+TBfvkDDW+e+gIXHVKc95etzAC4Bbybk/rFGGTd3NNIkWANmDKgr2xTheCrq+fDHflnqGcQ==",
+      "path": "xam.plugin.iconize.material/3.5.0.129",
+      "hashPath": "xam.plugin.iconize.material.3.5.0.129.nupkg.sha512"
     },
     "Xamarin.Essentials/1.2.0": {
       "type": "package",

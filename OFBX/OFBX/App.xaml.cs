@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Plugin.Iconize;
 using OFBX.Services;
 using OFBX.Views;
 
@@ -12,6 +13,8 @@ namespace OFBX
         public App()
         {
             InitializeComponent();
+
+            Plugin.Iconize.Iconize.With(new Plugin.Iconize.Fonts.MaterialModule());
 
             DependencyService.Register<MockDataStore>();
             MainPage = new LoginPage();

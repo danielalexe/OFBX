@@ -35,6 +35,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -42,6 +54,31 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "Xam.Plugin.Iconize/3.5.0.129": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.5.0.274416"
+        },
+        "compile": {
+          "lib/netstandard2.0/Plugin.Iconize.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Iconize.dll": {}
+        }
+      },
+      "Xam.Plugin.Iconize.Material/3.5.0.129": {
+        "type": "package",
+        "dependencies": {
+          "Xam.Plugin.Iconize": "3.5.0.129",
+          "Xamarin.Forms": "3.5.0.274416"
+        },
+        "compile": {
+          "lib/netstandard2.0/Plugin.Iconize.Material.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Iconize.Material.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -261,6 +298,36 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "sha512": "PE7uHJ/LuI5pSO1HpgjJ+v2KhNfftzqt/L1AoGH/5mX0fP7pcW6lG4FbUHuCFKolrzJfLLotuuET+hfN50Whpg==",
+      "type": "package",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.Droid.pdb",
+        "lib/MonoAndroid/Rg.Plugins.Popup.dll",
+        "lib/MonoAndroid/Rg.Plugins.Popup.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.IOS.pdb",
+        "lib/MonoTouch/Rg.Plugins.Popup.dll",
+        "lib/MonoTouch/Rg.Plugins.Popup.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.pdb",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.dll",
+        "lib/Xamarin.IOS/Rg.Plugins.Popup.pdb",
+        "lib/netstandard1.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard1.0/Rg.Plugins.Popup.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.UWP.pdb",
+        "lib/uap10.0/Rg.Plugins.Popup.dll",
+        "lib/uap10.0/Rg.Plugins.Popup.pdb",
+        "readme.txt",
+        "rg.plugins.popup.1.1.5.188.nupkg.sha512",
+        "rg.plugins.popup.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -306,6 +373,68 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugin.Iconize/3.5.0.129": {
+      "sha512": "XLWwU+ZRRs1tM8quKDD3ZgdYgAftxyk9LhEQ8vdji8C9HsqVF+1El9Fdw9WbU/VBxGVoM5GWQ0tDb2uuT1QU7w==",
+      "type": "package",
+      "path": "xam.plugin.iconize/3.5.0.129",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.Iconize.dll",
+        "lib/monoandroid90/Plugin.Iconize.pdb",
+        "lib/monoandroid90/Plugin.Iconize.xml",
+        "lib/net472/Plugin.Iconize.dll",
+        "lib/net472/Plugin.Iconize.pdb",
+        "lib/net472/Plugin.Iconize.xml",
+        "lib/netstandard1.3/Plugin.Iconize.dll",
+        "lib/netstandard1.3/Plugin.Iconize.pdb",
+        "lib/netstandard1.3/Plugin.Iconize.xml",
+        "lib/netstandard2.0/Plugin.Iconize.dll",
+        "lib/netstandard2.0/Plugin.Iconize.pdb",
+        "lib/netstandard2.0/Plugin.Iconize.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.dll",
+        "lib/uap10.0.16299/Plugin.Iconize.pdb",
+        "lib/uap10.0.16299/Plugin.Iconize.pri",
+        "lib/uap10.0.16299/Plugin.Iconize.xml",
+        "lib/xamarinios10/Plugin.Iconize.dll",
+        "lib/xamarinios10/Plugin.Iconize.pdb",
+        "lib/xamarinios10/Plugin.Iconize.xml",
+        "xam.plugin.iconize.3.5.0.129.nupkg.sha512",
+        "xam.plugin.iconize.nuspec"
+      ]
+    },
+    "Xam.Plugin.Iconize.Material/3.5.0.129": {
+      "sha512": "Lr/oswR7bXYYFDF+TBfvkDDW+e+gIXHVKc95etzAC4Bbybk/rFGGTd3NNIkWANmDKgr2xTheCrq+fDHflnqGcQ==",
+      "type": "package",
+      "path": "xam.plugin.iconize.material/3.5.0.129",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/Xamarin.iOS10/Resources/iconize-material.ttf",
+        "lib/monoandroid90/Plugin.Iconize.Material.dll",
+        "lib/monoandroid90/Plugin.Iconize.Material.pdb",
+        "lib/monoandroid90/Plugin.Iconize.Material.xml",
+        "lib/net472/Plugin.Iconize.Material.dll",
+        "lib/net472/Plugin.Iconize.Material.pdb",
+        "lib/net472/Plugin.Iconize.Material.xml",
+        "lib/netstandard1.3/Plugin.Iconize.Material.dll",
+        "lib/netstandard1.3/Plugin.Iconize.Material.pdb",
+        "lib/netstandard1.3/Plugin.Iconize.Material.xml",
+        "lib/netstandard2.0/Plugin.Iconize.Material.dll",
+        "lib/netstandard2.0/Plugin.Iconize.Material.pdb",
+        "lib/netstandard2.0/Plugin.Iconize.Material.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.dll",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.pdb",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.pri",
+        "lib/uap10.0.16299/Plugin.Iconize.Material.xml",
+        "lib/uap10.0.16299/Plugin.Iconize.Material/iconize-material.ttf",
+        "lib/xamarinios10/Plugin.Iconize.Material.dll",
+        "lib/xamarinios10/Plugin.Iconize.Material.pdb",
+        "lib/xamarinios10/Plugin.Iconize.Material.xml",
+        "xam.plugin.iconize.material.3.5.0.129.nupkg.sha512",
+        "xam.plugin.iconize.material.nuspec"
       ]
     },
     "Xamarin.Essentials/1.2.0": {
@@ -623,6 +752,8 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
+      "Rg.Plugins.Popup >= 1.1.5.188",
+      "Xam.Plugin.Iconize.Material >= 3.5.0.129",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.1.0.618606",
       "Xamarin.Forms.Visual.Material >= 4.1.0.618606"
@@ -636,11 +767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+      "projectUniqueName": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
       "projectName": "OFBX",
-      "projectPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
+      "projectPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\OFBX.csproj",
       "packagesPath": "C:\\Users\\AlDanielM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlDanielM\\source\\repos\\OFBX\\OFBX\\OFBX\\obj\\",
+      "outputPath": "C:\\Users\\AlDanielM\\Documents\\GitHub\\OFBX\\OFBX\\OFBX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -681,6 +812,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
+          },
+          "Rg.Plugins.Popup": {
+            "target": "Package",
+            "version": "[1.1.5.188, )"
+          },
+          "Xam.Plugin.Iconize.Material": {
+            "target": "Package",
+            "version": "[3.5.0.129, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
