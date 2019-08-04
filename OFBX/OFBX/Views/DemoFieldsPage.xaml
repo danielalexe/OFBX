@@ -6,26 +6,30 @@
              mc:Ignorable="d"
              x:Class="OFBX.Views.DemoFieldsPage">
     <ContentPage.Content>
-        <Grid>
-			<Grid.RowDefinitions>
-				<RowDefinition Height="60"/>
-				<RowDefinition Height="60"/>
-				<RowDefinition Height="80"/>
-				<RowDefinition Height="60"/>
-			</Grid.RowDefinitions>
-			<Grid.ColumnDefinitions>
-				<ColumnDefinition/>
-				<ColumnDefinition/>
-			</Grid.ColumnDefinitions>
-            <Label Grid.Row="0" Grid.Column="0" Text="SingleLine String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
-            <Entry Grid.Row="0" Grid.Column="1" Placeholder="SingleLine String"></Entry>
-            <Label Grid.Row="1" Grid.Column="0" Text="Password String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
-            <Entry Grid.Row="1" Grid.Column="1" Placeholder="Password String" IsPassword="True"></Entry>
-            <Label Grid.Row="2" Grid.Column="0"  Text="MultiLine String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
-            <Editor Grid.Row="2" Grid.Column="1"></Editor>
-            <Label Grid.Row="3" Grid.Column="0" Text="Numeric String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
-            <Entry Grid.Row="3" Grid.Column="1" Placeholder="Numeric String" Keyboard="Numeric"></Entry>
-
-        </Grid>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="SingleLine String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="SingleLine String"></Entry>
+                <Label Grid.Row="1" Grid.Column="0" Text="Password String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Password String" IsPassword="True"></Entry>
+                <Label Grid.Row="2" Grid.Column="0"  Text="MultiLine String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <Editor Grid.Row="2" Grid.Column="1"></Editor>
+                <Label Grid.Row="3" Grid.Column="0" Text="Numeric String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <Entry Grid.Row="3" Grid.Column="1" Placeholder="Numeric String" Keyboard="Numeric"></Entry>
+                <Label Grid.Row="4" Grid.Column="0" Text="Time Picker" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <TimePicker Grid.Row="4" Grid.Column="1"></TimePicker>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
