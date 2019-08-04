@@ -11,6 +11,7 @@
 				<RowDefinition Height="60"/>
 				<RowDefinition Height="60"/>
 				<RowDefinition Height="80"/>
+				<RowDefinition Height="60"/>
 			</Grid.RowDefinitions>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition/>
@@ -22,6 +23,9 @@
             <Entry Grid.Row="1" Grid.Column="1" Placeholder="Password String" IsPassword="True"></Entry>
             <Label Grid.Row="2" Grid.Column="0"  Text="MultiLine String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
             <Editor Grid.Row="2" Grid.Column="1"></Editor>
+            <Label Grid.Row="3" Grid.Column="0" Text="Numeric String" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Entry Grid.Row="3" Grid.Column="1" Placeholder="Numeric String" Keyboard="Numeric"></Entry>
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>
