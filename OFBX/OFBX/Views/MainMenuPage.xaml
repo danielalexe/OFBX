@@ -20,8 +20,8 @@
 				<ColumnDefinition/>
 				<ColumnDefinition/>
 			</Grid.ColumnDefinitions>
-            <iconize:IconButton Grid.Row="0" Grid.Column="0" Text="md-android" CornerRadius="18" FontSize="40" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="5"></iconize:IconButton>
-            <Label Grid.Row="0" Grid.Column="0" Text="Android" TextColor="{StaticResource TextPrimary}" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="10" FontSize="Medium"></Label>
+            <iconize:IconButton x:Name="ButtonDemo" Clicked="ButtonDemo_Clicked" Grid.Row="0" Grid.Column="0" Text="md-android" CornerRadius="18" FontSize="40" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="5"></iconize:IconButton>
+            <Label Grid.Row="0" Grid.Column="0" Text="Demo Fields" TextColor="{StaticResource TextPrimary}" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="10" FontSize="Medium"></Label>
             <iconize:IconButton Grid.Row="0" Grid.Column="1" Text="md-bug-report" CornerRadius="18" FontSize="40" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="5"></iconize:IconButton>
             <Label Grid.Row="0" Grid.Column="1" Text="Bugs" TextColor="{StaticResource TextPrimary}" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Margin="10" FontSize="Medium"></Label>
             <iconize:IconButton Grid.Row="1" Grid.Column="0" Text="md-dashboard" CornerRadius="18" FontSize="40" BackgroundColor="{StaticResource NavigationPrimary}" TextColor="{StaticResource TextPrimary}" Margin="5"></iconize:IconButton>

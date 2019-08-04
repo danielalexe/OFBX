@@ -21,5 +21,10 @@ namespace OFBX.Views
         {
             App.Current.MainPage = new LoginPage();
         }
+
+        private void ButtonDemo_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DemoFieldsPage());
+        }
     }
 }

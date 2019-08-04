@@ -72,6 +72,7 @@ namespace OFBX.Views
                 await DisplayAlert("Error", "Internet connection not available", "OK");
             }
 
+            App.Current.MainPage = new NavigationPage(new MainMenuPage());
 
         }
 
