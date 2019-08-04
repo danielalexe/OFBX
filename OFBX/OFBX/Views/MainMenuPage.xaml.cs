@@ -16,5 +16,10 @@ namespace OFBX.Views
         {
             InitializeComponent();
         }
+
+        private void ButtonLogout_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new LoginPage();
+        }
     }
 }
