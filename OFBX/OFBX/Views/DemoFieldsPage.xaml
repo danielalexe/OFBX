@@ -14,6 +14,7 @@
                     <RowDefinition Height="80"/>
                     <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -29,6 +30,8 @@
                 <Entry Grid.Row="3" Grid.Column="1" Placeholder="Numeric String" Keyboard="Numeric"></Entry>
                 <Label Grid.Row="4" Grid.Column="0" Text="Time Picker" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
                 <TimePicker Grid.Row="4" Grid.Column="1"></TimePicker>
+                <Label Grid.Row="5" Grid.Column="0" Text="Date Picker" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <DatePicker Grid.Row="5" Grid.Column="1"></DatePicker>
             </Grid>
         </ScrollView>
     </ContentPage.Content>
