@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Visual="Material"
              x:Class="OFBX.Views.DemoFieldsPage">
     <ContentPage.Content>
         <ScrollView>
@@ -12,6 +13,7 @@
                     <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
                     <RowDefinition Height="80"/>
+                    <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
@@ -32,6 +34,8 @@
                 <TimePicker Grid.Row="4" Grid.Column="1"></TimePicker>
                 <Label Grid.Row="5" Grid.Column="0" Text="Date Picker" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
                 <DatePicker Grid.Row="5" Grid.Column="1"></DatePicker>
+                <Label Grid.Row="6" Grid.Column="0" Text="Combo Box" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+                <Picker Grid.Row="6" Grid.Column="1" x:Name="PickerDemo" Title="Pick an item"></Picker>
             </Grid>
         </ScrollView>
     </ContentPage.Content>
