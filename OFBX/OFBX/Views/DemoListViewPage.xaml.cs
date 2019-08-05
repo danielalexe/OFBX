@@ -11,11 +11,12 @@ using Xamarin.Forms.Xaml;
 namespace OFBX.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DemoFieldsPage : ContentPage
+    public partial class DemoListViewPage : ContentPage
     {
-        public DemoFieldsPage()
+        public DemoListViewPage()
         {
             InitializeComponent();
+
             List<DTOUser> list = new List<DTOUser>();
             DTOUser dto = new DTOUser();
             dto.iID_USER = 1;
@@ -77,9 +78,14 @@ namespace OFBX.Views
             dto.iID_USER = 15;
             dto.nvUSERNAME = "Demo 15";
             list.Add(dto);
-            PickerDemo.ItemsSource = list;
-            PickerDemo.ItemDisplayBinding = new Binding("nvUSERNAME");
-            PickerDemo.SelectedItem = dto;
+
+            DemoListView.ItemsSource = list;
+
+        }
+
+        private async void DemoListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            await DisplayAlert("Event", "You have clicked the item "+((DTOUser)e.Item).nvUSERNAME, "OK");
         }
     }
 }
