@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Visual="Material"
+             x:Class="OFBX.Views.DemoExtraFieldsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Text="Search Bar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <SearchBar x:Name="DemoSearchBar" Grid.Row="0" Grid.Column="1" Placeholder="Search Bar" SearchButtonPressed="DemoSearchBar_SearchButtonPressed"></SearchBar>
+            <Label Grid.Row="1" Grid.Column="0" Text="Progress Bar" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <ProgressBar x:Name="DemoProgressBar" ProgressColor="{StaticResource NavigationPrimary}" Grid.Row="1" Grid.Column="1"></ProgressBar>
+            <Label Grid.Row="2" Grid.Column="0" Text="Slider" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Slider Grid.Row="2" Grid.Column="1" MinimumTrackColor="{StaticResource NavigationPrimary}" ThumbColor="{StaticResource NavigationPrimary}" Maximum="100" Minimum="1" Value="50"></Slider>
+            <Label Grid.Row="3" Grid.Column="0" Text="Stepper" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Stepper Grid.Row="3" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Stepper>
+            <Label Grid.Row="4" Grid.Column="0" Text="Switch" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Switch Grid.Row="4" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Switch>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

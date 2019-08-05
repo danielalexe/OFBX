@@ -37,3 +37,4 @@ C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Popu
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\PopupViews\SettingsPopupPage.xaml.g.cs
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\DemoFieldsPage.xaml.g.cs
 C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\DemoListViewPage.xaml.g.cs
+C:\Users\AlDanielM\Documents\GitHub\OFBX\OFBX\OFBX\obj\Debug\netstandard2.0\Views\DemoExtraFieldsPage.xaml.g.cs

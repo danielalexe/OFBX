@@ -31,5 +31,10 @@ namespace OFBX.Views
         {
             Navigation.PushAsync(new DemoListViewPage());
         }
+
+        private void ButtonDemoExtraFields_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DemoExtraFieldsPage());
+        }
     }
 }
