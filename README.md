@@ -1,5 +1,6 @@
 # Open Framework for Business Xamarin
 Free cross-platform (Android and iOS) Starter Project written in Xamarin that contains the minimum requirements to create a custom application
+## FAQ:
 1. ***What is this?***  
 This is a cross-platform (Android and iOS) Xamarin based project that contains the necessary controls and libraries in order to create an application for a custom business flow.
 2. ***Why did you do it?***  
