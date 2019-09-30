@@ -61,7 +61,7 @@ namespace OFBX.Views
                         App.Current.MainPage = new NavigationPage(new MainMenuPage());
                     }
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     await PopupNavigation.Instance.RemovePageAsync(popupPage);
                     await DisplayAlert("Error", "Wrong username or password", "OK");
