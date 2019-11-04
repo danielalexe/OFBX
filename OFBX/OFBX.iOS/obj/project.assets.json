@@ -34,7 +34,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rg.Plugins.Popup/1.1.5.188": {
+      "Rg.Plugins.Popup/1.2.0.223": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.5.0.121934"
@@ -119,7 +119,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.947036": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -242,7 +242,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.2.0.815419": {
+      "Xamarin.Forms.Visual.Material/4.3.0.947036": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "72.2.0.1"
@@ -269,11 +269,11 @@
         "dependencies": {
           "Flurl.Http": "2.4.2",
           "Newtonsoft.Json": "12.0.2",
-          "Rg.Plugins.Popup": "1.1.5.188",
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419",
-          "Xamarin.Forms.Visual.Material": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.947036",
+          "Xamarin.Forms.Visual.Material": "4.3.0.947036"
         },
         "compile": {
           "bin/placeholder/OFBX.dll": {}
@@ -316,7 +316,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rg.Plugins.Popup/1.1.5.188": {
+      "Rg.Plugins.Popup/1.2.0.223": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.5.0.121934"
@@ -395,7 +395,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.947036": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -518,7 +518,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.2.0.815419": {
+      "Xamarin.Forms.Visual.Material/4.3.0.947036": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "72.2.0.1"
@@ -545,11 +545,11 @@
         "dependencies": {
           "Flurl.Http": "2.4.2",
           "Newtonsoft.Json": "12.0.2",
-          "Rg.Plugins.Popup": "1.1.5.188",
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419",
-          "Xamarin.Forms.Visual.Material": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.947036",
+          "Xamarin.Forms.Visual.Material": "4.3.0.947036"
         },
         "compile": {
           "bin/placeholder/OFBX.dll": {}
@@ -592,7 +592,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rg.Plugins.Popup/1.1.5.188": {
+      "Rg.Plugins.Popup/1.2.0.223": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.5.0.121934"
@@ -671,7 +671,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.947036": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -794,7 +794,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.2.0.815419": {
+      "Xamarin.Forms.Visual.Material/4.3.0.947036": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "72.2.0.1"
@@ -821,11 +821,11 @@
         "dependencies": {
           "Flurl.Http": "2.4.2",
           "Newtonsoft.Json": "12.0.2",
-          "Rg.Plugins.Popup": "1.1.5.188",
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419",
-          "Xamarin.Forms.Visual.Material": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.947036",
+          "Xamarin.Forms.Visual.Material": "4.3.0.947036"
         },
         "compile": {
           "bin/placeholder/OFBX.dll": {}
@@ -868,7 +868,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rg.Plugins.Popup/1.1.5.188": {
+      "Rg.Plugins.Popup/1.2.0.223": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.5.0.121934"
@@ -947,7 +947,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.947036": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1070,7 +1070,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.2.0.815419": {
+      "Xamarin.Forms.Visual.Material/4.3.0.947036": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "72.2.0.1"
@@ -1097,11 +1097,11 @@
         "dependencies": {
           "Flurl.Http": "2.4.2",
           "Newtonsoft.Json": "12.0.2",
-          "Rg.Plugins.Popup": "1.1.5.188",
+          "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419",
-          "Xamarin.Forms.Visual.Material": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.947036",
+          "Xamarin.Forms.Visual.Material": "4.3.0.947036"
         },
         "compile": {
           "bin/placeholder/OFBX.dll": {}
@@ -1183,10 +1183,10 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Rg.Plugins.Popup/1.1.5.188": {
-      "sha512": "PE7uHJ/LuI5pSO1HpgjJ+v2KhNfftzqt/L1AoGH/5mX0fP7pcW6lG4FbUHuCFKolrzJfLLotuuET+hfN50Whpg==",
+    "Rg.Plugins.Popup/1.2.0.223": {
+      "sha512": "0ruzj7EedYRUhhsk327z7ymaHzf9E/n6Slg2ZJfOYqtZ14tX1dtWbyNRSmGEnWxLyN1qSq4Od4U6vYupHRpdtw==",
       "type": "package",
-      "path": "rg.plugins.popup/1.1.5.188",
+      "path": "rg.plugins.popup/1.2.0.223",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1209,7 +1209,7 @@
         "lib/uap10.0/Rg.Plugins.Popup.dll",
         "lib/uap10.0/Rg.Plugins.Popup.pdb",
         "readme.txt",
-        "rg.plugins.popup.1.1.5.188.nupkg.sha512",
+        "rg.plugins.popup.1.2.0.223.nupkg.sha512",
         "rg.plugins.popup.nuspec"
       ]
     },
@@ -1409,10 +1409,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.815419": {
-      "sha512": "GrKE8TBjR5chew92HBcoaTuqwo6Jnpp0djVaN4/wtGQW/URZAt3Eb3zF8rQ6jRA2WKuTKm3wyPTCPrB2PekIfQ==",
+    "Xamarin.Forms/4.3.0.947036": {
+      "sha512": "oEAwwHfaZesC+VvP07UoctI1DGIgewZlKMr/sHPl/hNMRM6ZfccPgOY19Yw017asj9z7PKXqpDDUbFFOJ2jN4A==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.815419",
+      "path": "xamarin.forms/4.3.0.947036",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1640,9 +1640,11 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
@@ -1651,28 +1653,27 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.815419.nupkg.sha512",
+        "xamarin.forms.4.3.0.947036.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Visual.Material/4.2.0.815419": {
-      "sha512": "4xovXx91xDdsSj362WMONCZAIQlZX5R21znxEtqPoV0DdgOapZvw1tzsxSdjVnS8M55Algr4htp3Ry0Z8O1msA==",
+    "Xamarin.Forms.Visual.Material/4.3.0.947036": {
+      "sha512": "4GSVDWNBv1h1jZ3DOid8DlFt4j2ymiaqmWznhF16d6b0amOSBLCyq5IplgcDQRFMMw7iC0TfVALaIhRHVSr7kA==",
       "type": "package",
-      "path": "xamarin.forms.visual.material/4.2.0.815419",
+      "path": "xamarin.forms.visual.material/4.3.0.947036",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
         "lib/MonoAndroid10/_._",
         "lib/MonoAndroid90/Xamarin.Forms.Material.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Material.dll.mdb",
         "lib/MonoAndroid90/Xamarin.Forms.Material.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
         "lib/netstandard1.0/_._",
         "lib/tizen40/Xamarin.Forms.Material.dll",
         "lib/tizen40/Xamarin.Forms.Material.pdb",
-        "xamarin.forms.visual.material.4.2.0.815419.nupkg.sha512",
+        "xamarin.forms.visual.material.4.3.0.947036.nupkg.sha512",
         "xamarin.forms.visual.material.nuspec"
       ]
     },
@@ -1699,7 +1700,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "OFBX >= 1.0.0",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.2.0.815419"
+      "Xamarin.Forms >= 4.3.0.947036"
     ]
   },
   "packageFolders": {
@@ -1750,7 +1751,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.815419, )"
+            "version": "[4.3.0.947036, )"
           }
         }
       }
