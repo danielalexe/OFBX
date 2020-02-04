@@ -898,7 +898,7 @@
           "lib/monoandroid90/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3",
@@ -926,7 +926,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.3.0.991221": {
+      "Xamarin.Forms.Visual.Material/4.4.0.991537": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.Design": "28.0.0.3",
@@ -951,8 +951,8 @@
           "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
-          "Xamarin.Forms.Visual.Material": "4.3.0.991221"
+          "Xamarin.Forms": "4.4.0.991537",
+          "Xamarin.Forms.Visual.Material": "4.4.0.991537"
         },
         "compile": {
           "bin/placeholder/OFBX.dll": {}
@@ -2057,10 +2057,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.3.0.991221": {
-      "sha512": "Yh3kxXj+fnERLZfh8gNbcFWflSL0PvPh3aHtq2tpXInInVNeWDUb0qitChUm2hgJSSOpn3MBa/55nxcqPM4Kog==",
+    "Xamarin.Forms/4.4.0.991537": {
+      "sha512": "ZoOvfinSUma4gbXe/0mp6Uk/NTliFLkOwV9qLe/TW2VwSlBEhoiok99gr4esZVU+RwCPEqnsgmtlWFSMNzn2iw==",
       "type": "package",
-      "path": "xamarin.forms/4.3.0.991221",
+      "path": "xamarin.forms/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2273,43 +2273,26 @@
         "lib/tizen40/Xamarin.Forms.Xaml.xml",
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PickerStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.3.0.991221.nupkg.sha512",
+        "xamarin.forms.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Visual.Material/4.3.0.991221": {
-      "sha512": "A1uUwS72ZMQCJhDZtYpEcthZ9u6CResH8WPNIupE3tBSaZIebgEXDtMopsoNnIhSlNn+XBxfLrcirb9unsYIcw==",
+    "Xamarin.Forms.Visual.Material/4.4.0.991537": {
+      "sha512": "cuz9cWwr/lwKtUzCrTr2XrvnjlHsevN/rAgUGoetve0eSv2FP8Acox5YoRGLi8z8tYS9cZaKRRgYbEaE5hYURg==",
       "type": "package",
-      "path": "xamarin.forms.visual.material/4.3.0.991221",
+      "path": "xamarin.forms.visual.material/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2322,7 +2305,7 @@
         "lib/netstandard1.0/_._",
         "lib/tizen40/Xamarin.Forms.Material.dll",
         "lib/tizen40/Xamarin.Forms.Material.pdb",
-        "xamarin.forms.visual.material.4.3.0.991221.nupkg.sha512",
+        "xamarin.forms.visual.material.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.visual.material.nuspec"
       ]
     },
@@ -2343,7 +2326,7 @@
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.3.0.991221"
+      "Xamarin.Forms >= 4.4.0.991537"
     ]
   },
   "packageFolders": {
@@ -2422,7 +2405,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.3.0.991221, )"
+            "version": "[4.4.0.991537, )"
           }
         }
       }
