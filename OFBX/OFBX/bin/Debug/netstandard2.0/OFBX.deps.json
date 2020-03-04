@@ -14,9 +14,9 @@
           "Newtonsoft.Json": "12.0.3",
           "Rg.Plugins.Popup": "1.2.0.223",
           "Xam.Plugin.Iconize.Material": "3.5.0.129",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991537",
-          "Xamarin.Forms.Visual.Material": "4.4.0.991537",
+          "Xamarin.Essentials": "1.5.0",
+          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms.Visual.Material": "4.5.0.356",
           "Mono.Android": "0.0.0.0"
         },
         "runtime": {
@@ -60,7 +60,7 @@
       },
       "Rg.Plugins.Popup/1.2.0.223": {
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991537"
+          "Xamarin.Forms": "4.5.0.356"
         },
         "runtime": {
           "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
@@ -98,7 +98,7 @@
       },
       "Xam.Plugin.Iconize/3.5.0.129": {
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991537"
+          "Xamarin.Forms": "4.5.0.356"
         },
         "runtime": {
           "lib/netstandard2.0/Plugin.Iconize.dll": {
@@ -110,7 +110,7 @@
       "Xam.Plugin.Iconize.Material/3.5.0.129": {
         "dependencies": {
           "Xam.Plugin.Iconize": "3.5.0.129",
-          "Xamarin.Forms": "4.4.0.991537"
+          "Xamarin.Forms": "4.5.0.356"
         },
         "runtime": {
           "lib/netstandard2.0/Plugin.Iconize.Material.dll": {
@@ -119,7 +119,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.3.1": {
+      "Xamarin.Essentials/1.5.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -130,25 +130,25 @@
           }
         }
       },
-      "Xamarin.Forms/4.4.0.991537": {
+      "Xamarin.Forms/4.5.0.356": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.459"
+            "fileVersion": "4.5.0.143"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.459"
+            "fileVersion": "4.5.0.143"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.459"
+            "fileVersion": "4.5.0.143"
           }
         }
       },
-      "Xamarin.Forms.Visual.Material/4.4.0.991537": {
+      "Xamarin.Forms.Visual.Material/4.5.0.356": {
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991537"
+          "Xamarin.Forms": "4.5.0.356"
         }
       },
       "Mono.Android/0.0.0.0": {
@@ -244,26 +244,26 @@
       "path": "xam.plugin.iconize.material/3.5.0.129",
       "hashPath": "xam.plugin.iconize.material.3.5.0.129.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.3.1": {
+    "Xamarin.Essentials/1.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
-      "path": "xamarin.essentials/1.3.1",
-      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
+      "sha512": "sha512-smsjVQ05+EUpynNmzDVOKu4hE17c5WZU79cgWxAkZtJPXqJdNUoqFpj34n4s32QsPdLSgRE/B48+64q1ycqD+Q==",
+      "path": "xamarin.essentials/1.5.0",
+      "hashPath": "xamarin.essentials.1.5.0.nupkg.sha512"
     },
-    "Xamarin.Forms/4.4.0.991537": {
+    "Xamarin.Forms/4.5.0.356": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZoOvfinSUma4gbXe/0mp6Uk/NTliFLkOwV9qLe/TW2VwSlBEhoiok99gr4esZVU+RwCPEqnsgmtlWFSMNzn2iw==",
-      "path": "xamarin.forms/4.4.0.991537",
-      "hashPath": "xamarin.forms.4.4.0.991537.nupkg.sha512"
+      "sha512": "sha512-aOg3sUA2xuLhyhtLuihrDVFZ5ZCa71pgojyz/HdjEH7eW5HxEws+IIgvKTYUZbFOIGD7eK/f3x1lYj6HI/o+jg==",
+      "path": "xamarin.forms/4.5.0.356",
+      "hashPath": "xamarin.forms.4.5.0.356.nupkg.sha512"
     },
-    "Xamarin.Forms.Visual.Material/4.4.0.991537": {
+    "Xamarin.Forms.Visual.Material/4.5.0.356": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cuz9cWwr/lwKtUzCrTr2XrvnjlHsevN/rAgUGoetve0eSv2FP8Acox5YoRGLi8z8tYS9cZaKRRgYbEaE5hYURg==",
-      "path": "xamarin.forms.visual.material/4.4.0.991537",
-      "hashPath": "xamarin.forms.visual.material.4.4.0.991537.nupkg.sha512"
+      "sha512": "sha512-TU17K3vm3DBQEwF1kp7G+rBQ/sJaU2/rEVuP2BQMRCY1YzFs+09c85rvNTv/MGYAZjIkFVylSzBp6jWZQ7DQpw==",
+      "path": "xamarin.forms.visual.material/4.5.0.356",
+      "hashPath": "xamarin.forms.visual.material.4.5.0.356.nupkg.sha512"
     },
     "Mono.Android/0.0.0.0": {
       "type": "reference",
